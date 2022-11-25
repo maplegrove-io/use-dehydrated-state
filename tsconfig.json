@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "lib": ["DOM", "ESNEXT"],
+    "outDir": "dist"
+  },
+  "files": ["src/index.ts"]
+}
