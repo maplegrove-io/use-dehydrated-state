@@ -1,6 +1,6 @@
 # use-dehydrated-state
 
-`use-dehydrated-state` is a simple utility [Hook](https://beta.reactjs.org/learn/reusing-logic-with-custom-hooks) for [TanStack Query](https://tanstack.com/query) & [Remix](https://remix.run).
+`use-dehydrated-state` is a simple utility [Hook](https://react.dev/learn/reusing-logic-with-custom-hooks) for [TanStack Query](https://tanstack.com/query) & [Remix](https://remix.run).
 
 ## Installation
 
@@ -48,7 +48,7 @@ export default function MyApp() {
 }
 ```
 
-Now you are ready to prefetch some data in your [`loader`](https://remix.run/docs/en/v1/api/conventions#loader).
+Now you are ready to prefetch some data in your [`loader`](https://remix.run/docs/en/route/loader).
 
 - Create a new `QueryClient` instance **for each page request. This ensures that data is not shared between users and requests.**
 - Prefetch the data using the clients `prefetchQuery` method and wait for it to complete
