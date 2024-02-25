@@ -1,6 +1,6 @@
 {
   "name": "use-dehydrated-state",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A simple utility Hook for TanStack Query & Remix",
   "homepage": "https://github.com/maplegrove-io/use-dehydrated-state#readme",
   "bugs": {
