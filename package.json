@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@remix-run/react": "^1.19.3",
-    "@remix-run/server-runtime": "^1.19.3",
+    "@remix-run/server-runtime": "^2.17.3",
     "@tanstack/query-core": "^4.33.0",
     "@types/react": "^18.2.21",
     "typescript": "^5.2.2"
